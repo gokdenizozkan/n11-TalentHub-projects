@@ -33,6 +33,7 @@ Note:
     - [Dwelling instead of House](#dwelling-instead-of-house)
         - [Dwelling vs House](#dwelling-vs-house)
         - [Dwelling vs Residence](#dwelling-vs-residence)
+    - [Versioning](#versioning)
     - [Class Diagram](#class-diagram)
 
 ## Dwelling instead of House
@@ -51,6 +52,21 @@ The word "residence" is more of a state/concept.
 Plus, in some languages, residence is used more formally and may refer to a building where business is conducted.
 
 On the other hand, dwelling is a more concrete term and refers to the physical place where people live.
+
+## Versioning
+
+In this assignment, I have used the extended version of Semantic Versioning, which its details can be found here: [AO-SemVer](https://github.com/alcheware/alpha-oriented-semantic-versioning)
+
+### Declared features for AO-SemVer
+
+- F1: DwellingType class: Enum class for the dwelling types
+- F2: Priceable interface: Interface for the priceable objects
+- F3: Dwelling class: Abstract class for the dwelling types
+- F4: Fundamental entities extending from Dwelling class: House, Villa, and HolidayHome classes
+- F5: DwellingBuilder class: Builder class for the Dwelling class
+- F6: DwellingService class: Service class for the Dwelling class
+- F7: Area class: Class for the area that contains dwellings
+- F8: AreaBuilder class: Builder class for the Area class (should be used for testing purposes, not a true builder class)
 
 ## Class Diagram
 
